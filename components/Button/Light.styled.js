@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Icon = styled.div`
   font-size: 32px;
-  filter: ${({ isOn }) => (isOn ? "none" : "grayscale(100%)")};
+  filter: ${({ light }) => (light ? "none" : "grayscale(100%)")};
   transition: filter 0.2s;
 `;
 
